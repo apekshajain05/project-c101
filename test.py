@@ -8,7 +8,7 @@ class TransferData:
         dbx.files_upload(f.read(),file_to)
 
 def main():
-    access_token='sl.AsXumhtKDMmHN8BEg-yQiPo1k1GtZhDI6sCxEoV1VVoRJJImBW8jCFzEUpsMjMyx4-tf9OLOjyCiKoz6K5WOntSzsfEGGAYxaOG1UTdk2UxLLEM82WWkxQNRBMS9NUMS-WFXiePI'
+    access_token='sl.AswLuTaRenW7iZgsRJFGGIOoysizQiSfqp215KB_MWQSnd86U_UFPke0xqKcN_RavO6Ag8eXN_6UZXfOo7LqkFQd2KatCko2Iw3tziqHlxesVgwjQNdPxVnzySOJEP8qOreImLrD'
     TransferData1=TransferData(access_token)
     file_from=input("Enter the file path to transfer from device")
     file_to=input("Enter the file path to upload to dropbox")
